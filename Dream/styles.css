@@ -1,0 +1,36 @@
+.image {
+  position: absolute;
+  width: 506px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: -1;
+}
+
+/*.twinkle {
+  position: absolute;
+  width: 506px;
+  padding-left: 0;
+  margin-top: 50px;
+  background-color: red;
+  z-index: 5000;
+}*/
+.booker {
+  -webkit-transition: all cubic-bezier(0.590, 0.705, 0.800, 0) ease-in-out;
+}
+
+.booker p {
+  position: absolute;
+  background-color: #141414;
+  width: 5px;
+  margin: 58px 0 0 268px;
+  line-height: 0.5em;
+}
+
+.animated {
+  -webkit-animation: my-cool-animation 5s forwards;
+}
+
+@-webkit-keyframes my-cool-animation {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
