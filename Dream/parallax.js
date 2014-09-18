@@ -1,7 +1,6 @@
 function parallaxEye() {
-  var eye = document.querySelector(".booker");
+  var eye = document.querySelector(".no-eye");
   eye.classList.add('animated');
-  // eye.style.visibility = "hidden";
 }
 
 window.onscroll = parallaxEye;
