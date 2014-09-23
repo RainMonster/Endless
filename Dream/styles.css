@@ -6,7 +6,7 @@ body {
   height: 20px;
 }
 
-.eye-images {
+/*.eye-images {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -20,10 +20,49 @@ body {
 .no-eye {
   margin-top: -782px;
   z-index: 1;
+}*/
+
+.image-container {
+  display: block;
+  position: relative;
+  height: 782px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.eye-images-top {
+  background-image: url('dream-test.png');
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 0px;
+  position: absolute;
+  height: 782px;
+  width: 500px;
+  z-index: -1;
+}
+.eye-images-overlay {
+  background: url('dream-test.png') 0 -785px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 500px;
+  height: 782px;
+  z-index: 1;
+}
+
+/*.image-container:hover {
+  background-position: 0 -600px;
+}*/
+
+/*.eye-images-overlay {
+  background-image: url('dream-test.png');
+  background-position: 0 -782px;
+}*/
+
 .animated {
-  -webkit-animation: my-cool-animation 5s cubic-bezier(0.590, 0.705, 0.800, 0) alternate 1;
+  -webkit-animation: my-cool-animation 3s cubic-bezier(0.590, 0.705, 0.800, 0) forwards 5;
 }
 
 @-webkit-keyframes my-cool-animation {
